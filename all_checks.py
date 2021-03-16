@@ -29,3 +29,4 @@ if not check_disk_full(disk="/", min_gb=2, min_percent=10):
 
 print("Everything ok.")
 sys.exit(0)
+print("master chenge")
