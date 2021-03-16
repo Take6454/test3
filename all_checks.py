@@ -19,6 +19,7 @@ def check_disk_full(disk, min_gb, min_percent):
         return True
     return False
 
+
 #Check for at least 2 GB and 10% free
 if not check_reboot():
     print("Pending Reboot.")
